@@ -5,32 +5,52 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="./css/styles.css"/>
+    <link rel="stylesheet" href="./css/styles.css"/> <!--See styles.css for details-->
 </head>
 
 <body>
+  <!--Introduction and personal info-->
     <h1>
         My Portfolio
     </h1>
     <div class="page-content">
       <h2>Isaac Saettel</h2>
       <h3>Software Developer</h3>
-      <img src="c:/Users/Korraki/Pictures/Space/Black_Hole.jpg" alt="Picture of me" width="400px" height="200px">
+      <img class="my-photo" title="That's Me!" src="./images/ME.jpg" alt="Picture of me">
       <hr>
       <p>My <i>favorite</i> thing about programming is having an outlet for my creative tendencies.</p>
     </div>
+
+    <!--Start of "About Me" section-->
     <div class="about-me">
-      <h3>About Me</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-      <h3>My Projects</h3>
+      <h2>About Me</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>
+      Don't know what all that fake latin means ... but here is some actual things about me:</p>
       <ul>
-        <li>Project 1</li>
-        <li>Project 2</li>
-        <li>Project 3</li>
+        <li>I love hiking</li>
+        <p><img class="landscape-portrait" src="./images/first_creek.jpg" alt="First Creek">
+        <img class="landscape-horizontal" src="./images/mt_wilson.jpg" alt="Mt. Wilson">
+        <img class="landscape-horizontal" src="./images/red_rock.jpg" alt="Red Rock">
+        <img class="flower-pic" src="./images/yellow_flower.jpg" alt="Yellow Flower"><br>
+        <i>Some photos I took while hiking</i></p>
+        <li>I sing for a living (as of now anyway)</li>
+        <li>I have a dog named Simon. I love him very much!</li>
+        <img class="simon-pic" src="./images/simon.jpeg" alt="My dog Simon">
       </ul>
+      <div class="projects-style">
+          <h3>My Projects</h3>
+        <ul>
+          <li>Project 1</li>
+          <li>Project 2</li>
+          <li>Project 3</li>
+          <li>A combat simulator for D&D, check out my progress: <a href="./python_files">FirstCombatSim</a></li>
+        </ul>
+      </div>
+
+      <!--Contact info-->
       <h3>Contact Me</h3>
       <p><b>Phone:</b> 555-555-5555 <br>
-      <b>Email:</b> <a href="mailto:fake@email.com" style="color:black">my email</a>
+      <b>Email:</b> <a href="mailto:fake@email.com" >my email</a>
       </p>
     </div>
 </body>
