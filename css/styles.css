@@ -3,6 +3,10 @@ body {
     color: white;
 }
 
+a {
+    cursor: pointer;
+}
+
 a:link {
     color: black;
     text-decoration: none;
@@ -22,6 +26,7 @@ a:visited {
 }
 
 .page-content {
+    text-align: center;
     background-color: darkblue;
     color: white;
     border-style: solid;
@@ -40,6 +45,7 @@ a:visited {
 }
 
 .my-photo {
+    
     border-style: inset;
     border-width: 5px;
     border-color: white;
@@ -47,27 +53,55 @@ a:visited {
     height: 258px;
 }
 
+.center {
+    text-align: center;
+}
+
 .landscape-horizontal {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
     width: 252px;
     height: 189px;
 }
 
 .landscape-portrait {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
     width: 189px;
     height: 252px;
 }
 
 .flower-pic {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
     width: 249px;
     height: 258px;
 }
 
+.work-style {
+    border-style: double;
+    border-color: black;
+    border-width: 5px;
+    width: 300px;
+    height: 200px;
+}
+
 .simon-pic {
+    border-style: outset;
+    border-color:aquamarine;
+    border-width: 5px;
     width: 182px;
     height: 243px;
+    cursor: grab;
 }
 
 .projects-style {
+    margin: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
     background-color:darkorchid;
     color:black;
     border-style:dashed;

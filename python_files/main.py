@@ -2,6 +2,7 @@ import Monster_SB
 
 # Hello! If you're reading this then you probably clicked on the link to see my combat simulator!
 # This is a D&D oriented simulator, so it uses a lot of the vocabulary from that format.
+# You'll need to copy the entire python_files directory to play the game.
 
 # HOW TO PLAY:
 # 1. Set number of players. You can set as many as you like, but I recommend no more than 5.
@@ -62,9 +63,9 @@ for p_number in range_of_p:
             p_creation_attempt = True
         else:
             print('''
-Invalid monster type
+Invalid player type
             ''')
-            monster_type = input('Monster type > ').lower()
+            monster_type = input('Player type > ').lower()
     print(' ')
 
 # This section is to determine initiative
