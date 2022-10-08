@@ -26,29 +26,23 @@ a:visited {
 }
 
 .page-content {
+    margin: auto 25%;
     text-align: center;
     background-color: rgb(20, 20, 98);
     color: white;
-    border-style: solid;
-    border-width: 5px;
-    border-color:steelblue;
+    border: 5px solid steelblue;
     border-radius: 50px;
 }
 
 .about-me {
     background-color:steelblue;
     color:black;
-    border-style: solid;
-    border-width: 5px;
-    border-color: darkblue;
+    border: 5px solid darkblue;
     border-radius: 50px;
 }
 
 .my-photo {
-    
-    border-style: inset;
-    border-width: 5px;
-    border-color: silver;
+    border: 5px inset silver;
     width: 193px;
     height: 258px;
 }

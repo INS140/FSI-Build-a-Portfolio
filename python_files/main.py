@@ -2,7 +2,7 @@ import Monster_SB
 
 # Hello! If you're reading this then you probably clicked on the link to see my combat simulator!
 # This is a D&D oriented simulator, so it uses a lot of the vocabulary from that format.
-# You'll need to copy the entire python_files directory to play the game.
+# You'll need to copy all three files to play the game.
 
 # HOW TO PLAY:
 # 1. Set number of players. You can set as many as you like, but I recommend no more than 5.
@@ -64,6 +64,7 @@ for p_number in range_of_p:
         else:
             print('''
 Invalid player type
+Valid types: player, gnoll, skeleton, zombie
             ''')
             monster_type = input('Player type > ').lower()
     print(' ')
