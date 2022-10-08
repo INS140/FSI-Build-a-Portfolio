@@ -24,9 +24,9 @@
     <!--Start of "About Me" section-->
     <div class="about-me">
       <h2 class="center">About Me</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>
-      Don't know what all that fake latin means ... but here is some actual things about me:</p>
-      <ul>
+      <p><span class="lorem-style">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</span><br>
+      Don't know what all that latin means ... but here is some actual things about me:</p>
+      <ul class="about-list-style">
         <li>I love hiking</li>
         <p><img class="landscape-portrait" title="First Creek" src="./images/first_creek.jpg" alt="First Creek">
         <img class="landscape-horizontal" title="Mt. Wilson" src="./images/mt_wilson.jpg" alt="Mt. Wilson">
@@ -34,37 +34,39 @@
         <img class="flower-pic" title="Yellow flower" src="./images/yellow_flower.jpg" alt="Yellow Flower"><br>
         <i>Some photos I took while hiking</i></p>
         <li>I sing for a living (as of now anyway)</li>
-        <p><img class="work-style" title="This is where I work" src="./images/my_work.jfif" alt="gondola ride"><br>
+        <p><img class="work-style" title="This is where I work" src="./images/my_work2.jpg" alt="gondola ride"><br>
         <i>This is where I work</i></p>
         <li>I have a dog named Simon. I love him very much!</li>
         <p><img class="simon-pic" title="Give him some pets" src="./images/simon.jpeg" alt="My dog Simon"><br>
         <i>This is Simon, he's a very good boy</i></p>
+        <li>I am <strong>VERY</strong> excited about coding</li>
       </ul>
       <hr>
       <div class="projects-style">
           <h3>My Projects</h3>
           <hr>
-        <ul>
+        <ul class="project-list-style">
           <li>Project 1</li>
           <li>Project 2</li>
           <li>Project 3</li>
-          <li>A combat simulator for D&D, check out my progress: <a href="python_files">FirstCombatSim</a></li>
+          <li>A combat simulator for D&D, check out my progress:</li>
+          <ul>
+            <li class="link-list"><a href="./python_files/main.py" target="iframe">main.py</a>,</li>
+            <li class="link-list"><a href="./python_files/Monster_SB.py" target="iframe">Monster_SB.py</a>,</li>
+            <li class="link-list"><a href="./python_files/weapons.py" target="iframe">weapons.py</a></li>
+          </ul>
         </ul>
+        <iframe class="iframe-style" name="iframe" src="./python_files/main.py" title="Game code preview"></iframe>
       </div>
       <hr>
       <!--Contact info-->
+      <div class="contact-style">
       <h3>Contact Me</h3>
-      <p><b>Phone:</b> 555-555-5555 <br>
+      <p><b> Phone:</b> 555-555-5555 <br>
       <b>Email:</b> <a href="mailto:fake@email.com" >my email</a>
       </p>
+    </div>
     </div>
 </body>
 
 </html>
-
-<!--Add a background color or image to your portfolio.
-Make your images more aesthetically appealing by giving them a border radius.
-Center certain parts of your content according to your liking.
-Add images to the images directory, reference them in your HTML, and give them a border color.
-Change the font of parts or all of your page.
-Give your page a new cursor.-->

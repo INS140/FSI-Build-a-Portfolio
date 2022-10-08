@@ -8,7 +8,7 @@ a {
 }
 
 a:link {
-    color: black;
+    color:purple;
     text-decoration: none;
 }
 
@@ -17,38 +17,38 @@ a:active {
 }
 
 a:hover {
-    color: aqua;
+    color:maroon;
     text-decoration: underline;
 }
 
 a:visited {
-    color: gold;
+    color: maroon;
 }
 
 .page-content {
     text-align: center;
-    background-color: darkblue;
+    background-color: rgb(20, 20, 98);
     color: white;
     border-style: solid;
     border-width: 5px;
-    border-color: darkred;
-    border-radius: 20px;
+    border-color:steelblue;
+    border-radius: 50px;
 }
 
 .about-me {
-    background-color: darkred;
-    color: white;
+    background-color:steelblue;
+    color:black;
     border-style: solid;
     border-width: 5px;
     border-color: darkblue;
-    border-radius: 20px;
+    border-radius: 50px;
 }
 
 .my-photo {
     
     border-style: inset;
     border-width: 5px;
-    border-color: white;
+    border-color: silver;
     width: 193px;
     height: 258px;
 }
@@ -57,55 +57,83 @@ a:visited {
     text-align: center;
 }
 
+.lorem-style {
+    font-family:'Courier New', Courier, monospace;
+}
+
+.about-list-style {
+    list-style-type:circle;
+}
+
 .landscape-horizontal {
     border-style: solid;
     border-color: black;
     border-width: 5px;
-    width: 252px;
-    height: 189px;
+    width: 378px;
+    height: 284px;
 }
 
 .landscape-portrait {
     border-style: solid;
     border-color: black;
     border-width: 5px;
-    width: 189px;
-    height: 252px;
+    width: 213px;
+    height: 284px;
 }
 
 .flower-pic {
     border-style: solid;
     border-color: black;
     border-width: 5px;
-    width: 249px;
-    height: 258px;
+    width: 274px;
+    height: 284px;
 }
 
 .work-style {
     border-style: double;
     border-color: black;
     border-width: 5px;
-    width: 300px;
-    height: 200px;
+    width: 505px;
+    height: 284px;
 }
 
 .simon-pic {
     border-style: outset;
-    border-color:aquamarine;
+    border-color:silver;
     border-width: 5px;
-    width: 182px;
-    height: 243px;
+    width: 213px;
+    height: 284px;
     cursor: grab;
 }
 
 .projects-style {
-    margin: 50px;
+    margin: 50px 20%;
     padding-left: 10px;
     padding-right: 10px;
-    background-color:darkorchid;
+    background-color:darkgray;
     color:black;
-    border-style:dashed;
-    border-color: white;
-    border-width: 3px;
+    border: 3px dashed white;
     padding-top: 0px;
+}
+
+.project-list-style {
+    list-style-type:square;
+}
+
+.link-list{
+    list-style-type: none;
+    float: left;
+    padding-right: 10px;
+}
+
+.iframe-style {
+    border: 10px solid rgb(20, 20, 98);
+    width: 97%;
+    height: 300px;
+    background-color: white;
+    color: black;
+}
+
+.contact-style {
+    margin-left: 20px;
 }
