@@ -12,8 +12,8 @@ a:link {
     text-decoration: none;
 }
 
-a:active {
-    color: black;
+a:visited {
+    color: maroon;
 }
 
 a:hover {
@@ -21,8 +21,38 @@ a:hover {
     text-decoration: underline;
 }
 
-a:visited {
-    color: maroon;
+a:active {
+    color: black;
+}
+
+.title-box {
+    border: 1px solid white;
+    border-top: none;
+    border-left: none;
+    margin-bottom: 0%;
+    width: 200px;
+}
+
+.header-link a:link, .header-link a:visited {
+    border: 1px solid white;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    margin-left: 0%;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+.header-link a:hover, .header-link a:active {
+    border: 1px solid white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: underline;
+    background-color: white;
+    color: black;
+    display: inline-block;
 }
 
 .page-content {
@@ -115,9 +145,8 @@ a:visited {
 }
 
 .link-list{
-    list-style-type: none;
-    float: left;
-    padding-right: 10px;
+    border-right: 1px solid black;
+    padding-right: 5px;
 }
 
 .iframe-style {
